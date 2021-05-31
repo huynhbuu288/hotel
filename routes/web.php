@@ -44,4 +44,6 @@ Route::get('forget-password', 'App\Http\Controllers\Auth\ForgotPasswordControlle
 Route::post('forget-password', 'App\Http\Controllers\Auth\ForgotPasswordController@postEmail')->name('forget-password');
 
 Route::get('home','App\Http\Controllers\HomeController@index');
+Route::get('dangnhap','App\Http\Controllers\HomeController@login');
+
 

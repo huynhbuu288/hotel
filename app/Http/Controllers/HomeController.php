@@ -23,6 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('index');
+        return view('layouts.master');
+    }
+    public function login()
+    {
+        return view('auth.login');
     }
 }

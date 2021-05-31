@@ -1099,8 +1099,7 @@ a {
     color: #337ab7;
     text-decoration: none;
 }
-a:hover,
-a:focus {} a:focus {
+a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
@@ -1209,12 +1208,7 @@ h6 .small,
     line-height: 1;
     color: #777;
 }
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {} h1 small,
+ h1 small,
 .h1 small,
 h2 small,
 .h2 small,
@@ -1228,12 +1222,7 @@ h3 .small,
 .h3 .small {
     font-size: 65%;
 }
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {} h4 small,
+h4 small,
 .h4 small,
 h5 small,
 .h5 small,
@@ -3644,7 +3633,7 @@ tbody.collapse.in {
     -o-transition-property: height, visibility;
     transition-property: height, visibility;
 }
-.caret {} .dropup,
+ .dropup,
 .dropdown {
     position: relative;
 }
@@ -6712,7 +6701,7 @@ button.close {
     }
 }
 @media (max-width: 767px) {
-    .hidden-xs {}
+ 
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .hidden-sm {
